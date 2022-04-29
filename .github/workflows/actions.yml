@@ -1,7 +1,18 @@
 name: Actions Workflow
 
 on:
-  push:
+  # push:
+  #   branches:
+  #     - master
+  #     - 'feature/*'
+  #     - '!feature/featC'
+  #   tags:
+  #     - v1.*
+  # repository_dispatch:
+  #   types:[build]
+  # schedule:
+  #   - cron: "* * * * *"
+  # push:
   pull_request:
     types: [closed, assigned, opened, reopened]  
 
