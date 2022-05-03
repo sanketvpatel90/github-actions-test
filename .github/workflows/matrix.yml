@@ -1,6 +1,10 @@
 name: Matrix
 
-on: push
+on:
+  push:
+    branches:
+      - "dev"
+      - "development"
 
 jobs:
   node-version:
