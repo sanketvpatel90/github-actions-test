@@ -8,7 +8,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep for 9 sec
-        run: sleep 9s
+      - name: Sleep for 15 sec
+        run: sleep 15s
       - name: Echo a String
         run: echo "Released a new version (Tag)"
