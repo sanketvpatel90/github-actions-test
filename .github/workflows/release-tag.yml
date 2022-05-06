@@ -12,5 +12,9 @@ jobs:
         run: sleep 10s
 #       - name: Breaks/Throws Error
 #         run: abcdefg g
+      - name: Log ENV
+        run: |
+          echo "ENV_1: ${ENV_1}"
+          echo "ENV_2: ${ENV_2}"
       - name: Echo a String
         run: echo "Released a new version (Tag)"
