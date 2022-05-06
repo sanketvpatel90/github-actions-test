@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Sleep for 10 sec
         run: sleep 10s
-      - name: Breaks/Throws Error
-        run: abcdefg g
+#       - name: Breaks/Throws Error
+#         run: abcdefg g
       - name: Echo a String
         run: echo "Released a new version (Tag)"
