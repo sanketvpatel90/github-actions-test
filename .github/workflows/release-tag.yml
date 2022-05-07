@@ -8,10 +8,10 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Sleep for 10 sec
-        run: sleep 10s
-#       - name: Breaks/Throws Error
-#         run: abcdefg g
+      - name: Sleep for 5 sec
+        run: sleep 5s
+      - name: Breaks/Throws Error
+        run: abcdefg g
       - name: Log ENV
         run: |
           echo "ENV_1: ${ENV_1}"
